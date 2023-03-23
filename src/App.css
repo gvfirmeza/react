@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.primeiro {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: blue;
+}
