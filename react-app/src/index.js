@@ -4,8 +4,10 @@ import './index.css';
 import App from './pages/App';
 import Sobre from './pages/Sobre';
 import Entra from './pages/Entra';
+import Cadastro1 from './pages/Cadastro1';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 
 const rotas = createBrowserRouter([
   {
@@ -21,6 +23,11 @@ const rotas = createBrowserRouter([
   {
     path: '/Entra',
     element: <Entra />
+  }
+  ,
+  {
+    path: "/cadastro",
+    element: <Cadastro1 />
   }
 ])
 
