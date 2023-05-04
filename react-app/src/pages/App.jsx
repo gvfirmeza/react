@@ -1,12 +1,13 @@
 import logo from './tubarao.png';
 import Menu from '../components/Menu/Menu';
+import { Titulo } from "./style.js";
 
 function App() {
   return (
     <div className="App">
       <Menu />
       <header className="App-header">
-        <h2>TUBARÃO DOENTE</h2>
+        <Titulo>TUBARÃO DOENTE</Titulo>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
