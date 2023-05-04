@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
 import Sobre from './pages/Sobre';
+import Entra from './pages/Entra';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -13,8 +14,13 @@ const rotas = createBrowserRouter([
   }
   ,
   {
-    path: "sobre",
+    path: "/Sobre",
     element: <Sobre />
+  }
+  ,
+  {
+    path: '/Entra',
+    element: <Entra />
   }
 ])
 

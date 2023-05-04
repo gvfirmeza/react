@@ -3,8 +3,9 @@ import { MeuNav } from "./style";
 
 const Menu = () => (
     <MeuNav>
-    <Link to="/">Home</Link>
-    <Link to="Sobre">Sobre</Link>
+        <Link to="/">Home</Link>
+        <Link to="/Sobre">Sobre</Link>
+        <Link to="/Entra">Entra</Link>
     </MeuNav>
 )
 
