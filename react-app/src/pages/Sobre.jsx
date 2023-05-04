@@ -5,7 +5,7 @@ import Cartao from "../components/Cartao/Cartao";
 const Sobre = () => (
     <>
     <Menu />
-    <h1>Planília de Chamados</h1>
+    <center><h1>Planília de Chamados</h1></center>
     <Cartao 
         simb={"📞"}
         data={"28/02/1884"}
