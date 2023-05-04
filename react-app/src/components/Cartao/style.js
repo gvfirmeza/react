@@ -17,7 +17,7 @@ const Container = styled.div `
 `;
 
 const Simbolo = styled.span `
-    padding-left: 0.6em;
+    padding-left: 0.4em;
     margin-right: 1em;
     font-size: larger;
     font-weight: bolder;
@@ -40,7 +40,7 @@ const Momento = styled.span `
     font-family: monospace;
     display: flex;
     align-items: center;
-    margin-right: 1.5em;
+    padding-left: 1em;
     
 `;
 
