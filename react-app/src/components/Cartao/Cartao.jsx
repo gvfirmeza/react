@@ -5,7 +5,7 @@ const Cartao = ( props ) => (
     <Container>
         <Simbolo>{props.simb}</Simbolo>
         <Descricao>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nam soluta, accusantium excepturi hic repellat esse dolore voluptatum sunt repellendus. Vero explicabo possimus, voluptatibus reprehenderit fugiat minus labore quis ratione.
+           === | Nome de quem fez o chamado | Descrição do Chamado | Tempo que o chamado está aberto (00:00) | Status do Chamado ❌ - ⚠️ - ✅ - ❗️ - | ===
         </Descricao>
         <Momento>{props.data}</Momento>
     </Container>
