@@ -5,13 +5,13 @@ import Cartao from "../components/Cartao/Cartao";
 const Sobre = () => (
     <>
     <Menu />
-    <h1>Cartões</h1>
+    <h1>Planília de Chamados</h1>
     <Cartao 
-        simb={"✥"}
+        simb={"❆"}
         data={"28/02/1884"}
     />
     <Cartao 
-        simb={"O"}
+        simb={"❆"}
         data={"06/12/2021"}
     />
     <Cartao 
@@ -19,11 +19,11 @@ const Sobre = () => (
         data={"12/06/1999"}
     />
     <Cartao 
-        simb={"✯"}
+        simb={"❆"}
         data={"22/02/1877"}
     />
     <Cartao 
-        simb={"✿"}
+        simb={"❆"}
         data={"31/06/2001"}
     />
     </>
