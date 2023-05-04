@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
 import Sobre from './pages/Sobre';
+import Cadastro1 from './pages/Cadastro1';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 
 const rotas = createBrowserRouter([
   {
@@ -13,8 +15,13 @@ const rotas = createBrowserRouter([
   }
   ,
   {
-    path: "sobre",
+    path: "/sobre",
     element: <Sobre />
+  }
+  ,
+  {
+    path: "/cadastro",
+    element: <Cadastro1 />
   }
 ])
 
