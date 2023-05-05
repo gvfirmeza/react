@@ -12,7 +12,9 @@ const Container = styled.div `
     flex-direction: row;
     column-gap: 1em;
     color: white;
+    width: fit-content;
 
+    margin: auto;
     margin-bottom: 1.5em;
 `;
 
