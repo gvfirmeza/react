@@ -43,6 +43,7 @@ const Cadastro1 = () => (
             <option value="TECNOLOGIA">TECNOLOGIA</option>
           </select>
           </p>
+          
 
           <button type="submit">CADASTRAR</button>
         </form>
