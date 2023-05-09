@@ -5,11 +5,13 @@ import { Titulo } from "./style.js";
 function App() {
   return (
     <div className="App">
+      <center>
       <Menu />
       <header className="App-header">
         <Titulo>TUBARÃO DOENTE</Titulo>
         <img src={logo} className="App-logo" alt="logo" />
       </header>
+      </center>
     </div>
   );
 }
