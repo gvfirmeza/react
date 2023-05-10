@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const DivAbertura = styled.div ` 
-    
+    color:white;
     flex-direction: column;
     font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ const DivAbertura = styled.div `
     text-align:center;
     border-radius: 25px;
     width: fit-content;
-    background-image: linear-gradient(to left, #0388A6 , #4992BF ,#64D0EA);
+    background: linear-gradient(to left, blue ,blue 35%, darkblue 100%);
     background-size: 400% 100%;
     display: flex ;
     align-items: center;
@@ -71,7 +71,7 @@ const DivAbertura = styled.div `
 
     textarea::placeholder {
         font-size: 15px;
-        color: #d0f4f9;
+        color: white;
         text-align: center;
         font-family: sans-serif;
     }
