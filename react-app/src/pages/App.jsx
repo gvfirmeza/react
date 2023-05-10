@@ -1,12 +1,12 @@
 import logo from './tubarao.png';
 import Menu from '../components/Menu/Menu';
-import { Titulo } from "./style.js";
+import { Fundo, Titulo } from "./style.js";
 
 
 
 function App() {
   return (
-    <div className="App">
+    <Fundo>
       <center>
       <Menu />
       <header className="App-header">
@@ -14,7 +14,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       </center>
-    </div>
+    </Fundo>
   );
 }
 
