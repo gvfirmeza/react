@@ -9,20 +9,20 @@ const Abertura = () => (
   <Fundo>
     <Menu />
     <center>
-    <h1>Abertuda de Chamado</h1>
+    <h1>Abertura de Chamado</h1>
     </center>
     <center>
       <DivAbertura>
         <form>
           <label for="Nome">Digite seu Nome</label>
           <p>
-            <input type="text" placeholder="name" name="name" />
+            <input type="text" placeholder="Nome" name="name" />
           </p>
           <label for="email">Digite seu Email</label>
           <p>
-            <input type="email" placeholder="email" name="email" />
+            <input type="email" placeholder="Email" name="email" />
           </p>
-          <label for="Setor">Selecione o setor</label>
+          <label for="Setor">Selecione o Setor</label>
           <p>
             <select>
               <option value="ADM">ADM</option>
@@ -33,12 +33,11 @@ const Abertura = () => (
           <label For="Descricao">Descreva o Problema:</label>
           <p>
             <textarea name="descricao" cols="20" rows="9" placeholder="Descrição do problema"></textarea>
-            
           </p>
           <label For="Gravidade"> Urgência do Problema:</label>
           <p>
             <select>
-              <option value="Pouco urgente">Pouco urgente</option>
+              <option value="Pouco urgente">Sem Urgencia</option>
               <option value="Normal">Normal</option>
               <option value="Urgente">Urgente</option>
             </select>
