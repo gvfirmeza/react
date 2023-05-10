@@ -5,12 +5,15 @@ const DivPrincipal = styled.div `
     color: white;
     font-weight: bolder;
     background: blue;
-    background: linear-gradient(90deg, blue 35%, darkblue 100%);
+    background: linear-gradient(90deg, blue 35%, darkblue 100%,#ffff );
     padding: 40pt;
     width: 28rem;
     margin: 0 auto;
     margin-top: 100pt;
     border-radius: 20px;
+    
+   
+    
 
     a {
         text-decoration: none;
@@ -35,5 +38,6 @@ const Botao = styled.button`
     border: 1px solid white;
     border-radius: 40px;
 `;
+
 
 export { DivPrincipal, Input, Botao };

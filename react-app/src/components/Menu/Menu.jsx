@@ -23,7 +23,7 @@ const Menu = () => (
         </Link>
     <Link to="/Entra">
         
-        Entra
+        Login
        
         </Link>
     <Link to= "/Abertura">
