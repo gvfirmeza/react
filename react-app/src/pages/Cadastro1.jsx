@@ -2,14 +2,20 @@ import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { DivCadastro } from "./style_cadastro";
 
+
+
 const Cadastro1 = () => (
   <>
     <Menu />
+   
+    
     <center>
     <h1>Cadastro de novo usuario</h1>
     </center>
     <center>
       <DivCadastro>
+        
+        
         <form>
           <label for="Nome">Digite seu Nome</label>
           <p>
@@ -37,16 +43,18 @@ const Cadastro1 = () => (
           </p>
           <label for="Setor">Selecione o setor</label>
 
-          <p><select>
-            <option value="ADM">ADM</option>
-            <option value="COMERCIAL">COMERCIAL</option>
-            <option value="TECNOLOGIA">TECNOLOGIA</option>
-          </select>
+          <p>
+            <select>
+              <option value="ADM">ADM</option>
+              <option value="COMERCIAL">COMERCIAL</option>
+              <option value="TECNOLOGIA">TECNOLOGIA</option>
+            </select>
           </p>
           
 
           <button type="submit">CADASTRAR</button>
         </form>
+        
       </DivCadastro>
     </center>
   </>
