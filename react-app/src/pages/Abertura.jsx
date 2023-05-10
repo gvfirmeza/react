@@ -1,45 +1,28 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
-import {  DivCadastro, Fundo } from "./style_cadastro";
+import {  DivAbertura,  Fundo } from "./style_abertura";
 
 
 
-const Cadastro1 = () => (
+const Abertura = () => (
   <>  
   <Fundo>
     <Menu />
     <center>
-    <h1>Cadastro de novo usuario</h1>
+    <h1>Abertuda de Chamado</h1>
     </center>
     <center>
-      <DivCadastro>
+      <DivAbertura>
         <form>
           <label for="Nome">Digite seu Nome</label>
           <p>
             <input type="text" placeholder="name" name="name" />
-          </p>
-          <label for="Sobrenomeltimo Nome">Digite seu Sobrenome</label>
-          <p>
-            <input type="text" placeholder="sobrenome" name="sobrenome" />
-          </p>
-          <label for="senha">Digite sua Senha</label>
-          <p>
-            <input type="password" placeholder="senha" name="senha" />
-          </p>
-          <label for=" Confirme senha">Confirme sua Senha</label>
-          <p>
-            <input
-              type="password"
-              placeholder="Confirme sua senha"
-              name="senha"
-            />
           </p>
           <label for="email">Digite seu Email</label>
           <p>
             <input type="email" placeholder="email" name="email" />
           </p>
           <label for="Setor">Selecione o setor</label>
-
           <p>
             <select>
               <option value="ADM">ADM</option>
@@ -47,15 +30,26 @@ const Cadastro1 = () => (
               <option value="TECNOLOGIA">TECNOLOGIA</option>
             </select>
           </p>
-          
-
-          <button type="submit">CADASTRAR</button>
+          <label For="Descricao">Descreva o Problema:</label>
+          <p>
+            <input type="text" placeholder="descricao" name="descricao" />
+            
+          </p>
+          <label For="Gravidade"> Urgência do Problema:</label>
+          <p>
+            <select>
+              <option value="Pouco urgente">Pouco urgente</option>
+              <option value="Normal">Normal</option>
+              <option value="Urgente">Urgente</option>
+            </select>
+          </p>
+          <button type="submit">ENVIAR CHAMADO</button>
         </form>
         
-      </DivCadastro>
+      </DivAbertura>
     </center>
     </Fundo>
   </>
 );
 
-export default Cadastro1;
+export default Abertura;

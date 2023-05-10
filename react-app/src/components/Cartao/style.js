@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div `
-    background-color: grey;
+    
 
     border-radius: 8px;
     border: solid 2px black;
@@ -45,5 +45,13 @@ const Momento = styled.span `
     padding-left: 1em;
     
 `;
+const Fundo = styled.div `
+    background-image: url("https://images2.alphacoders.com/851/thumb-1920-85170.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+`;
 
-export {Container , Simbolo , Descricao , Momento };
+
+export { Container , Simbolo , Descricao , Momento, Fundo };
