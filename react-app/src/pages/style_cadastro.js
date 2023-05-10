@@ -10,7 +10,7 @@ const DivCadastro = styled.div `
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     text-align:center;
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
     background: linear-gradient(to left, blue ,blue 35%, darkblue 100%);
     background-size: 400% 100%;
