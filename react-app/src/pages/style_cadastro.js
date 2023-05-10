@@ -6,7 +6,7 @@ import styled from "styled-components";
 const DivCadastro = styled.div ` 
     
     flex-direction: column;
-    font-size:20px;
+    font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     text-align:center;
@@ -17,6 +17,7 @@ const DivCadastro = styled.div `
     display: flex ;
     align-items: center;
     animation: fade  3s  infinite alternate ;
+    color: white;
     
     a {
         text-decoration: none;
