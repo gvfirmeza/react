@@ -22,6 +22,43 @@ const DivCadastro = styled.div `
         text-decoration: none;
     }
     
+    input {
+        font-size: 15px;
+        color: white;
+        background-color: transparent;
+        border: solid black 2px;
+        padding: 0.3em;
+        border-radius: 10px;
+    }
+
+    input::placeholder{
+        font-size: 15px;
+        color: #d0f4f9;
+        text-align: center;
+    }
+
+    button {
+        font-size: 15px;
+        font-weight: 550;
+        color: black;
+        background-color: #d0f4f9;
+        border: solid black 2px;
+        padding: 0.5em;
+        border-radius: 10px;
+    }
+
+    select {
+        font-size: 15px;
+        color: #d0f4f9;
+        background-color: transparent;
+        border: solid black 2px;
+        padding: 0.3em;
+        border-radius: 10px;
+    }
+
+    option {
+        background-color: #0388A6;  
+    }
 
 @keyframes fade{
         0%{

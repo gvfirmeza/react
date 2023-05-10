@@ -6,7 +6,7 @@ const Chamado = () => (
     <>
    <Fundo>
     <Menu />
-    <center><h1>Planília de Chamados</h1></center>
+    <center><h1>Planilha de Chamados</h1></center>
     
     
     <Cartao 

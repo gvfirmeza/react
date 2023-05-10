@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Titulo = styled.h2 `
-    color: #90DB65;
+    color: black;
     font-size: 32px;
 `;
 
