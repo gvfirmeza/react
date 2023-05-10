@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 const Container = styled.div `
     
-
+    background-color: #60ACE8;
     border-radius: 8px;
     border: solid 2px black;
     padding: 1em;
     height: fit-content;
+    color: black;
     
     display: flex;
     flex-direction: row;
@@ -33,6 +34,7 @@ const Simbolo = styled.span `
 const Descricao = styled.span `
     font-size: 18px;
     font-style: italic;
+    color: black;
 `;
 
 const Momento = styled.span `
@@ -42,10 +44,11 @@ const Momento = styled.span `
     display: flex;
     align-items: center;
     padding-left: 1em;
+    color: black;
     
 `;
 const Fundo = styled.div `
-    background-image: url("https://images2.alphacoders.com/851/thumb-1920-85170.jpg");
+    background-image: url("https://i.gifer.com/KT3p.gif");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
