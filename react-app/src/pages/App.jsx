@@ -2,6 +2,8 @@ import logo from './tubarao.png';
 import Menu from '../components/Menu/Menu';
 import { Titulo } from "./style.js";
 
+
+
 function App() {
   return (
     <div className="App">

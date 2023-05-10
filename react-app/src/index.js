@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './pages/App';
-import Sobre from './pages/Sobre';
+import Chamado from './pages/Chamado';
 import Entra from './pages/Entra';
 import Cadastro1 from './pages/Cadastro1';
 import reportWebVitals from './reportWebVitals';
@@ -16,8 +16,8 @@ const rotas = createBrowserRouter([
   }
   ,
   {
-    path: "/Sobre",
-    element: <Sobre />
+    path: "/Chamado",
+    element: <Chamado />
   }
   ,
   {
@@ -26,7 +26,7 @@ const rotas = createBrowserRouter([
   }
   ,
   {
-    path: "/cadastro",
+    path: "/Cadastro",
     element: <Cadastro1 />
   }
 ])

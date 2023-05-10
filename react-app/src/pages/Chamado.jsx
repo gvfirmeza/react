@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 
-const Sobre = () => (
+const Chamado = () => (
     <>
     <Menu />
     <center><h1>Planília de Chamados</h1></center>
@@ -29,4 +29,4 @@ const Sobre = () => (
     </>
 )
 
-export default Sobre ;
+export default Chamado ;
