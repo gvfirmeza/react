@@ -28,7 +28,8 @@ const Simbolo = styled.span `
 `;
 
 const Descricao = styled.span `
-    font-size: 22px;
+    font-size: 12pt;
+    width: 1000px;
     font-style: italic;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -50,7 +51,7 @@ const Fundo = styled.div `
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
 `;
 
 

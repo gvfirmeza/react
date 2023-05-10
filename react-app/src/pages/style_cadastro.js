@@ -78,7 +78,7 @@ const Fundo = styled.div `
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 190vh;
 `;
 
 export {Fundo, DivCadastro};
