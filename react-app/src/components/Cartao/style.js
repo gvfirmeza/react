@@ -6,7 +6,7 @@ const Container = styled.div `
     border-radius: 8px;
     border: solid 2px black;
     padding: 1em;
-    height: 1.5em;
+    height: fit-content;
     
     display: flex;
     flex-direction: row;
@@ -16,11 +16,14 @@ const Container = styled.div `
 
     margin: auto;
     margin-bottom: 1.5em;
+
+    width: fit-content;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;
 `;
 
 const Simbolo = styled.span `
-    padding-left: 0.4em;
-    margin-right: 1em;
     font-size: larger;
     font-weight: bolder;
     display: flex;
@@ -28,13 +31,8 @@ const Simbolo = styled.span `
 `;
 
 const Descricao = styled.span `
-    font-size: 12pt;
-    width: 1000px;
+    font-size: 18px;
     font-style: italic;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    padding-bottom: 5em;
 `;
 
 const Momento = styled.span `
