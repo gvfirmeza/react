@@ -1,4 +1,4 @@
-import logo from './tubarao.png';
+import logo from './tubarão.gif';
 import Menu from '../components/Menu/Menu';
 import { Fundo, Titulo } from "./style.js";
 

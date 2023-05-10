@@ -8,6 +8,7 @@ function Entra() {
       <Fundo>
         <Menu />
         <header className="App-header">
+        <center><Titulo>Fazer o Login</Titulo></center>
           <DivPrincipal>
             <label for="email">Digite seu E-mail</label>
             <p><Input type="e-mail" placeholder=' email' name="email" /></p>

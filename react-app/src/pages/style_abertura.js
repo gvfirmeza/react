@@ -90,11 +90,11 @@ const DivAbertura = styled.div `
 
 ;
 const Fundo = styled.div `
-    background-image: url("https://images2.alphacoders.com/851/thumb-1920-85170.jpg");
+    background-image: url("https://i.gifer.com/KT3p.gif");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 190vh;
+    height: 130vh;
 `;
 
 export {Fundo, DivAbertura};
