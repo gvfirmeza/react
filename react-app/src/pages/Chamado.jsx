@@ -1,14 +1,20 @@
-
+import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 
 const Chamado = () => (
     <>
+   <Fundo>
     <Menu />
     <center><h1>Planília de Chamados</h1></center>
+    
+    
     <Cartao 
+   
+        
         simb={"📞"}
         data={"28/02/1884"}
+        
     />
     <Cartao 
         simb={"📞"}
@@ -26,7 +32,11 @@ const Chamado = () => (
         simb={"📞"}
         data={"31/06/2001"}
     />
+    </Fundo>
+    
     </>
-)
+    
+    
+);
 
 export default Chamado ;

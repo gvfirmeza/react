@@ -3,14 +3,14 @@ import styled from "styled-components";
 
 
 
-const DivCadastro = styled.div ` 
+const DivAbertura = styled.div ` 
     
     flex-direction: column;
-    font-size:20px;
+    font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     text-align:center;
-    border-radius: 15px;
+    border-radius: 25px;
     width: fit-content;
     background-image: linear-gradient(to left, #0388A6 , #4992BF ,#64D0EA);
     background-size: 400% 100%;
@@ -44,4 +44,4 @@ const Fundo = styled.div `
     height: 100vh;
 `;
 
-export {Fundo, DivCadastro};
+export {Fundo, DivAbertura};

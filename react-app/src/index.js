@@ -7,6 +7,7 @@ import Entra from './pages/Entra';
 import Cadastro1 from './pages/Cadastro1';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Abertura from './pages/Abertura';
 
 
 const rotas = createBrowserRouter([
@@ -28,6 +29,11 @@ const rotas = createBrowserRouter([
   {
     path: "/Cadastro",
     element: <Cadastro1 />
+  }
+  ,
+  {
+    path: "/Abertura",
+    element: <Abertura />
   }
 ])
 
