@@ -22,10 +22,6 @@ const Abertura = () => (
           <p>
             <input type="email" placeholder="Email" name="email" />
           </p>
-          <label For="Descricao">Descreva o Problema:</label>
-          <p>
-            <textarea name="Descricao" rows="7" cols="28" placeholder="Descrição"> </textarea>
-          </p>
           <label for="Setor">Selecione o Setor</label>
           <p>
             <select>
@@ -33,6 +29,10 @@ const Abertura = () => (
               <option value="COMERCIAL">COMERCIAL</option>
               <option value="TECNOLOGIA">TECNOLOGIA</option>
             </select>
+          </p>
+          <label For="Descricao">Descreva o Problema:</label>
+          <p>
+            <textarea name="descricao" cols="20" rows="9" placeholder="Descrição do problema"></textarea>
           </p>
           <label For="Gravidade"> Urgência do Problema:</label>
           <p>
