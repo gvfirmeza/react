@@ -32,7 +32,7 @@ const Abertura = () => (
           </p>
           <label For="Descricao">Descreva o Problema:</label>
           <p>
-            <input type="text" placeholder="descricao" name="descricao" />
+            <textarea name="descricao" cols="20" rows="9" placeholder="Descrição do problema"></textarea>
             
           </p>
           <label For="Gravidade"> Urgência do Problema:</label>
