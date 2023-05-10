@@ -4,13 +4,21 @@ const DivPrincipal = styled.div `
     /* gap: 1em; */
     color: white;
     font-weight: bolder;
+    margin: 0 auto;
     background: blue;
-    background: linear-gradient(90deg, blue 35%, darkblue 100%,#ffff );
+    flex-direction: column;
     padding: 40pt;
     width: 28rem;
-    margin: 0 auto;
-    margin-top: 100pt;
+    margin-top: 40pt;
     border-radius: 20px;
+    background: linear-gradient(90deg, blue 35%, darkblue 100%,#ffff );
+    background-size: 400% 100%;
+    display: flex ;
+    animation: fade  5s  infinite alternate ;
+    
+    
+
+
     
    
     
@@ -18,7 +26,20 @@ const DivPrincipal = styled.div `
     a {
         text-decoration: none;
     }
-`;
+
+
+@keyframes fade{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+`
+
+;
+
 
 const Input = styled.input`
     border: 1px solid black;
@@ -27,7 +48,9 @@ const Input = styled.input`
     width: 25em;
     padding-left: 15px;
     font-size: 12pt;
+    
 `;
+
 
 const Botao = styled.button`
     margin-top: 3em;
