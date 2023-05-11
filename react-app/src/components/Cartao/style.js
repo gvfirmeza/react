@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 const Container = styled.div `
-    
     background-color: #eefbfd;
     border-radius: 8px;
     border: solid 2px black;
     padding: 1em;
     height: fit-content;
-    color: black;
+    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     
     display: flex;
     flex-direction: row;
@@ -34,17 +33,16 @@ const Simbolo = styled.span `
 const Descricao = styled.span `
     font-size: 18px;
     font-style: italic;
-    color: black;
+    color: white;
 `;
 
 const Momento = styled.span `
-    
     font-size: 20px;
     font-family: monospace;
     display: flex;
     align-items: center;
     padding-left: 1em;
-    color: black;
+    color: white;
     
 `;
 const Fundo = styled.div `
