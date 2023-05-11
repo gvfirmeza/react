@@ -1,7 +1,7 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import {  DivCadastro, Fundo } from "./style_cadastro";
-
+import { Titulo } from "./style";
 
 
 const Cadastro1 = () => (
@@ -9,7 +9,7 @@ const Cadastro1 = () => (
   <Fundo>
     <Menu />
     <center>
-    <h1>Cadastro de novo Usuário</h1>
+    <Titulo>Cadastro de novo Usuário</Titulo>
     </center>
     <center>
       <DivCadastro>
