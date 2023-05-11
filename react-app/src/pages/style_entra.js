@@ -11,31 +11,13 @@ const DivPrincipal = styled.div `
     width: 28rem;
     margin-top: 40pt;
     border-radius: 20px;
-    background: linear-gradient(90deg, blue 35%, darkblue 100%,#ffff );
-    background-size: 400% 100%;
+    background-color: #232835;
     display: flex ;
-    animation: fade  5s  infinite alternate ;
-    
-    
-
-
-    
-   
-    
 
     a {
         text-decoration: none;
     }
 
-
-@keyframes fade{
-    0%{
-        background-position-x: 0%;
-    }
-    100%{
-        background-position-x: 100%;
-    }
-}
 `
 
 ;
