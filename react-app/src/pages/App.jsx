@@ -10,7 +10,7 @@ function App() {
       <center>
       <Menu />
       <header className="App-header">
-        <Titulo>TUBARÃO DOENTE</Titulo>
+        <Titulo>MICTARIANO</Titulo>
         
         <img src={logo} className="App-logo" alt="logo" height={300} />
         
