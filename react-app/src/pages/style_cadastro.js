@@ -6,17 +6,17 @@ import styled from "styled-components";
 const DivCadastro = styled.div ` 
     
     flex-direction: column;
-    font-size:20px;
+    font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
     text-align:center;
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
-    background-image: linear-gradient(to left, #0388A6 , #4992BF ,#64D0EA);
-    background-size: 400% 100%;
+    background-color: #232835;
     display: flex ;
     align-items: center;
     animation: fade  3s  infinite alternate ;
+    color: white;
     
     a {
         text-decoration: none;
@@ -60,25 +60,15 @@ const DivCadastro = styled.div `
         background-color: #0388A6;  
     }
 
-@keyframes fade{
-        0%{
-            background-position-x: 0%;
-        }
-        100%{
-            background-position-x: 100%;
-        }
-        
-    }
     `
    
 
 ;
 const Fundo = styled.div `
-    background-image: url("https://images2.alphacoders.com/851/thumb-1920-85170.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(167,218,226);
+    background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
     width: 100%;
-    height: 190vh;
+    height: 130vh;
 `;
 
 export {Fundo, DivCadastro};

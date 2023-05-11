@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 const DivAbertura = styled.div ` 
-    
+    color:white;
     flex-direction: column;
     font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,8 +12,7 @@ const DivAbertura = styled.div `
     text-align:center;
     border-radius: 25px;
     width: fit-content;
-    background-image: linear-gradient(to left, #0388A6 , #4992BF ,#64D0EA);
-    background-size: 400% 100%;
+    background-color: #232835;
     display: flex ;
     align-items: center;
     animation: fade  3s  infinite alternate ;
@@ -71,30 +70,20 @@ const DivAbertura = styled.div `
 
     textarea::placeholder {
         font-size: 15px;
-        color: #d0f4f9;
+        color: white;
         text-align: center;
         font-family: sans-serif;
     }
 
-@keyframes fade{
-        0%{
-            background-position-x: 0%;
-        }
-        100%{
-            background-position-x: 100%;
-        }
-        
-    }
     `
    
 
 ;
 const Fundo = styled.div `
-    background-image: url("https://images2.alphacoders.com/851/thumb-1920-85170.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(167,218,226);
+    background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
     width: 100%;
-    height: 190vh;
+    height: 130vh;
 `;
 
 export {Fundo, DivAbertura};

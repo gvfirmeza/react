@@ -6,18 +6,18 @@ const MeuNav = styled.nav `
     flex-direction: row;
     font-size: 19px;
     gap: 1em;
-    background-color: #60ACE8;
+    background-color: #232835;
     
     a {
         text-decoration: none;
-        font-weight: 400;
-        color: black;
+        font-weight: 600;
+        color: #dfe1ea;
         padding: 0.5em;
         margin: 0;
     }
 
     a:hover {
-        background-color : #228bdf;
+        background-color: #444d67;
     }
 
 `;
