@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Fundo } from "./style";
 
 const DivPrincipal = styled.div ` 
     /* gap: 1em; */
@@ -44,6 +45,7 @@ const Botao = styled.button`
     border: 1px solid white;
     border-radius: 40px;
 `;
+
 
 
 export { DivPrincipal, Input, Botao };

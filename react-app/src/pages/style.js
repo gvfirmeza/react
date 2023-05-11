@@ -15,4 +15,5 @@ const Fundo = styled.div `
 `;
 
 
+
 export {Titulo , Fundo};
