@@ -22,6 +22,7 @@ const Container = styled.div`
     padding-right: 30pt;
     display: grid;
     grid-template-columns: 45% 45%;
+    column-gap: 30px;
 `;
 
 const Bloco = styled.div`
