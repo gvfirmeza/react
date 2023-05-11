@@ -1,6 +1,7 @@
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import {  DivAbertura,  Fundo } from "./style_abertura";
+import { Titulo } from "./style";
 
 
 
@@ -9,7 +10,7 @@ const Dashboard = () => (
   <Fundo>
     <Menu />
     <center>
-    <h1>Abertura de Chamado</h1>
+    <Titulo>Abertura de Chamado</Titulo>
     </center>
     <center>
       <DivAbertura>
