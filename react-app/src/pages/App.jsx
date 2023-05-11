@@ -1,6 +1,6 @@
-import logo from './tubarão.gif';
+import logo from './micromeros.png';
 import Menu from '../components/Menu/Menu';
-import { Fundo, Titulo } from "./style.js";
+import { Fundo, Titulo, Logo } from "./style.js";
 
 
 
@@ -11,7 +11,9 @@ function App() {
       <Menu />
       <header className="App-header">
         <Titulo>TUBARÃO DOENTE</Titulo>
-        <img src={logo} className="App-logo" alt="logo" />
+        
+        <img src={logo} className="App-logo" alt="logo" height={300} />
+        
       </header>
       </center>
     </Fundo>
