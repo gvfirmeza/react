@@ -6,7 +6,7 @@ const MeuNav = styled.nav `
     flex-direction: row;
     font-size: 19px;
     gap: 1em;
-    background-color: #232835;
+    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     
     a {
         text-decoration: none;
