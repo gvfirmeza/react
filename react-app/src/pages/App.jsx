@@ -4,13 +4,15 @@ import { Fundo, Titulo, Logo } from "./style.js";
 import Footer from '../components/Footer/Footer';
 
 
+
 function App() {
   return (
     <Fundo>
       <center>
       <Menu />
       <header className="App-header">
-        <Titulo>MICTARIANO</Titulo>
+        <Titulo>Mircromeros </Titulo>
+
         
         <img src={logo} className="App-logo" alt="logo" height={300} />
         
