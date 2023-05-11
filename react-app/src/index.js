@@ -8,6 +8,7 @@ import Cadastro1 from './pages/Cadastro1';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Abertura from './pages/Abertura';
+import Dashboard from './pages/Dashboard';
 
 
 const rotas = createBrowserRouter([
@@ -35,6 +36,12 @@ const rotas = createBrowserRouter([
     path: "/Abertura",
     element: <Abertura />
   }
+  ,
+  {
+    path: "/Dashboard",
+    element: <Dashboard />
+  }
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -29,6 +29,9 @@ const Menu = () => (
     <Link to= "/Abertura">
         Abertura
     </Link>
+    <Link to= "/Dashboard">
+        Dashboard
+    </Link>
     
     </MeuNav>
 )
