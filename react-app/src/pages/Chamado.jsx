@@ -1,12 +1,13 @@
 import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
+import { Titulo } from "./style";
 
 const Chamado = () => (
     <>
    <Fundo>
     <Menu />
-    <center><h1>Planilha de Chamados</h1></center>
+    <center><Titulo>Planilha de Chamados</Titulo></center>
     
     
     <Cartao 
