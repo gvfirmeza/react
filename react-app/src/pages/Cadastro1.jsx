@@ -14,36 +14,41 @@ const Cadastro1 = () => (
     <center>
       <DivCadastro>
         <form>
-          
-          <label for="Nome">Nome:</label>
+          <label for="Nome">Digite seu Nome</label>
+          <p>
             <input type="text" placeholder="Nome" name="name" />
-          
-          <label for="Sobrenomeltimo Nome">Sobrenome:</label>
+          </p>
+          <label for="Sobrenomeltimo Nome">Digite seu Sobrenome</label>
+          <p>
             <input type="text" placeholder="Sobrenome" name="sobrenome" />
-          <br />
-          <label for="senha">Senha:</label>
-          <input type="password" placeholder="Senha" name="senha" />
-          
-          <label for=" Confirme senha">Confirmar Senha:</label>
+          </p>
+          <label for="senha">Digite sua Senha</label>
+          <p>
+            <input type="password" placeholder="Senha" name="senha" />
+          </p>
+          <label for=" Confirme senha">Confirme sua Senha</label>
+          <p>
             <input
               type="password"
               placeholder="Confirme sua Senha"
               name="senha"
             />
-          <br />
-          <label for="email">Email:</label>
+          </p>
+          <label for="email">Digite seu Email</label>
+          <p>
             <input type="email" placeholder="Email" name="email" />
-          <label for="email">Confirmar Email:</label>
-            <input type="email" placeholder="Confirmar Email" name="email" />
-          <br />
-          <label for="Setor">Setor:</label>
+          </p>
+          <label for="Setor">Selecione o setor</label>
+
+          <p>
             <select>
               <option value="ADM">ADM</option>
               <option value="COMERCIAL">COMERCIAL</option>
               <option value="TECNOLOGIA">TECNOLOGIA</option>
             </select>
+          </p>
           
-          <br />
+
           <button type="submit">CADASTRAR</button>
         </form>
         
