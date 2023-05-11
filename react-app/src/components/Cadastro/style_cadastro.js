@@ -12,10 +12,9 @@ const DivCadastro = styled.div `
     text-align:center;
     border-radius: 20px;
     width: fit-content;
-    background-color: #232835;
+    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     display: flex ;
     align-items: center;
-    animation: fade  3s  infinite alternate ;
     color: white;
     
     a {
