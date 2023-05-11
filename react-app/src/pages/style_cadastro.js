@@ -11,7 +11,7 @@ const DivCadastro = styled.div `
     padding: 2em;
     text-align:center;
     border-radius: 20px;
-    width: fit-content;
+    width: 60%;
     background-color: #232835;
     display: flex ;
     align-items: center;
@@ -21,6 +21,10 @@ const DivCadastro = styled.div `
     a {
         text-decoration: none;
     }
+
+    label {
+        margin-left: 1.5em;
+    }
     
     input {
         font-size: 15px;
@@ -29,6 +33,8 @@ const DivCadastro = styled.div `
         border: solid black 2px;
         padding: 0.3em;
         border-radius: 10px;
+        margin-left: 1.5em;
+        margin-bottom: 2em;
     }
 
     input::placeholder{
@@ -42,9 +48,11 @@ const DivCadastro = styled.div `
         font-weight: 550;
         color: black;
         background-color: #d0f4f9;
-        border: solid black 2px;
+        border: solid black 3px;
         padding: 0.5em;
-        border-radius: 10px;
+        border-radius: 50px;
+        margin-top: 2em;
+        padding: 1em;
     }
 
     select {
@@ -54,6 +62,7 @@ const DivCadastro = styled.div `
         border: solid black 2px;
         padding: 0.3em;
         border-radius: 10px;
+        margin-left: 1.5em;
     }
 
     option {
