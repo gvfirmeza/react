@@ -1,8 +1,7 @@
 import logo from './tubarao.png';
 import Menu from '../components/Menu/Menu';
 import { Fundo, Titulo } from "./style.js";
-
-
+import Footer from '../components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       </center>
+      <Footer></Footer>
     </Fundo>
   );
 }
