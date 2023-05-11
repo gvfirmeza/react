@@ -12,7 +12,7 @@ const DivPrincipal = styled.div `
     width: 28rem;
     margin-top: 40pt;
     border-radius: 20px;
-    background-color: #232835;
+    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     display: flex ;
 
 
