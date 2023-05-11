@@ -2,12 +2,14 @@ import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Titulo } from "./style";
+import logo from './micromeros.png';
 
 const Chamado = () => (
     <>
    <Fundo>
     <Menu />
     <center><Titulo>Planilha de Chamados</Titulo></center>
+    
     
     
     <Cartao 

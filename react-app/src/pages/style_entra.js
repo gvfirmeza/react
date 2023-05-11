@@ -14,7 +14,7 @@ const DivPrincipal = styled.div `
     background: linear-gradient(90deg, blue 35%, darkblue 100%,#ffff );
     background-size: 400% 100%;
     display: flex ;
-    animation: fade  5s  infinite alternate ;
+    animation: fade  3s  infinite alternate ;
     
     
 
