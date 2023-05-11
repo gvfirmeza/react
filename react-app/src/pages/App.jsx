@@ -1,12 +1,11 @@
 import logo from './micromeros.png';
 import Menu from '../components/Menu/Menu';
-import { Fundo, Titulo, Logo } from "./style.js";
+import { Fundo, Titulo } from "./style.js";
 import Footer from '../components/Footer/Footer';
-
-
 
 function App() {
   return (
+    <>
     <Fundo>
       <center>
       <Menu />
@@ -18,8 +17,10 @@ function App() {
         
       </header>
       </center>
-      <Footer></Footer>
     </Fundo>
+    <Footer></Footer> 
+    </>
+
   );
 }
 
