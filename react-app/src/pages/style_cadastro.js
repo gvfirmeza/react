@@ -12,8 +12,7 @@ const DivCadastro = styled.div `
     text-align:center;
     border-radius: 20px;
     width: fit-content;
-    background: linear-gradient(to left, blue ,blue 35%, darkblue 100%);
-    background-size: 400% 100%;
+    background-color: #232835;
     display: flex ;
     align-items: center;
     animation: fade  3s  infinite alternate ;
@@ -61,15 +60,6 @@ const DivCadastro = styled.div `
         background-color: #0388A6;  
     }
 
-@keyframes fade{
-        0%{
-            background-position-x: 0%;
-        }
-        100%{
-            background-position-x: 100%;
-        }
-        
-    }
     `
    
 
