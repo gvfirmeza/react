@@ -14,6 +14,7 @@ const DivPrincipal = styled.div `
     background-color: #232835;
     display: flex ;
 
+
     a {
         text-decoration: none;
     }
