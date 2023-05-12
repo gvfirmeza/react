@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const DivCadastro = styled.div ` 
     
-    flex-direction: column;
+    flex-direction: row;
     font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em;
@@ -16,6 +16,12 @@ const DivCadastro = styled.div `
     display: flex ;
     align-items: center;
     color: white;
+
+    label {
+        margin-left: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
     
     a {
         text-decoration: none;
@@ -28,6 +34,7 @@ const DivCadastro = styled.div `
         border: solid black 2px;
         padding: 0.3em;
         border-radius: 10px;
+        margin-bottom: 1em;
     }
 
     input::placeholder{
@@ -42,8 +49,9 @@ const DivCadastro = styled.div `
         color: black;
         background-color: #d0f4f9;
         border: solid black 2px;
-        padding: 0.5em;
+        padding: 0.8em;
         border-radius: 10px;
+        margin-top: 1em;
     }
 
     select {
