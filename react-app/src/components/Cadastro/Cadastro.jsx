@@ -4,41 +4,31 @@ const Cadastro = () => (
 
 <DivCadastro>
     <form>
-        <label for="Nome">Digite seu Nome</label>
-        <p>
+        <label for="Nome">Nome:</label>
             <input type="text" placeholder="Nome" name="name" />
-        </p>
-        <label for="Sobrenomeltimo Nome">Digite seu Sobrenome</label>
-        <p>
+        <label for="Sobrenomeltimo Nome">Sobrenome:</label>
             <input type="text" placeholder="Sobrenome" name="sobrenome" />
-        </p>
-        <label for="senha">Digite sua Senha</label>
-        <p>
+        <br />
+        <label for="senha">Senha:</label>
             <input type="password" placeholder="Senha" name="senha" />
-        </p>
-        <label for=" Confirme senha">Confirme sua Senha</label>
-        <p>
+        <label for=" Confirme senha">Confirme a Senha:</label>
             <input
                 type="password"
                 placeholder="Confirme sua Senha"
                 name="senha"
             />
-        </p>
-        <label for="email">Digite seu Email</label>
-        <p>
+        <br />
+        <label for="email">Email:</label>
             <input type="email" placeholder="Email" name="email" />
-        </p>
-        <label for="Setor">Selecione o setor</label>
+        <br /> 
+        <label for="Setor">Selecione o setor:</label>
 
-        <p>
             <select>
                 <option value="ADM">ADM</option>
                 <option value="COMERCIAL">COMERCIAL</option>
                 <option value="TECNOLOGIA">TECNOLOGIA</option>
             </select>
-        </p>
-
-
+        <br />
         <button type="submit">CADASTRAR</button>
     </form>
 </DivCadastro>
