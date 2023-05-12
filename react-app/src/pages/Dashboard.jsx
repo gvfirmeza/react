@@ -1,7 +1,5 @@
 import Menu from "../components/Menu/Menu";
-import Cartao from "../components/Cartao/Cartao";
-import {  DivAbertura,  Fundo } from "./style_abertura";
-import { Titulo } from "./style";
+import { Fundo, Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 
 const Dashboard = () => (
