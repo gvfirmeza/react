@@ -5,22 +5,19 @@ import styled from "styled-components";
 
 const DivCadastro = styled.div ` 
     
-    flex-direction: row;
-    font-size:22px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2em;
-    text-align:center;
+    padding: 40pt;
     border-radius: 20px;
-    width: fit-content;
     background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     display: flex ;
-    align-items: center;
     color: white;
+    width: 28rem;
+    margin: 0 auto;
 
     label {
-        margin-left: 1em;
-        margin-bottom: 1em;
-        margin-right: 1em;
+        padding-bottom: 1em;
+        font-size: large;
+        font-weight: 500;
     }
     
     a {
@@ -28,43 +25,55 @@ const DivCadastro = styled.div `
     }
     
     input {
-        font-size: 15px;
+        font-size: 12pt;
         color: white;
-        background-color: transparent;
-        border: solid black 2px;
+        background-color: white;
+        border: solid #7d92a7 2.2px;
         padding: 0.3em;
         border-radius: 10px;
         margin-bottom: 1em;
+        margin-top: 1em;
+        width: 25em;
     }
 
     input::placeholder{
+        padding-left: 0.4em;
         font-size: 15px;
-        color: #d0f4f9;
-        text-align: center;
+        font-weight: 600;
+        background: -webkit-linear-gradient(90deg, #032E6E 30%, #031735 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0.8;
     }
 
     button {
-        font-size: 15px;
-        font-weight: 550;
-        color: black;
-        background-color: #d0f4f9;
-        border: solid black 2px;
-        padding: 0.8em;
-        border-radius: 10px;
         margin-top: 1em;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: white;
+        padding: 0.8em;
+        margin-bottom: 1em;
+        border: solid #3a444d 2.2px;
+        border-radius: 10px;
+        color: #3a444d;
     }
 
     select {
-        font-size: 15px;
-        color: #d0f4f9;
-        background-color: transparent;
-        border: solid black 2px;
+        margin-top: 1em;
+        font-weight: 600;
+        background-color: white;
         padding: 0.3em;
+        margin-bottom: 1em;
+        border: solid #7d92a7 2.2px;
         border-radius: 10px;
     }
 
     option {
-        background-color: #0388A6;  
+        font-weight: 600;
+        background: -webkit-linear-gradient(90deg, #032E6E 30%, #031735 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-color: white;  
     }
 
     `

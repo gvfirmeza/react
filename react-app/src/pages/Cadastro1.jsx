@@ -12,9 +12,7 @@ const Cadastro1 = () => (
     <center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
     <Titulo>Cadastro de novo Usuário</Titulo>
     </center>
-    <center>
       <Cadastro/>
-    </center>
     </Fundo>
   </>
 );
