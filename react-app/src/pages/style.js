@@ -4,6 +4,8 @@ import logo from "./micromeros.png";
 const Titulo = styled.h2 `
     color: white;
     font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
 `;
 
 const Fundo = styled.div `
