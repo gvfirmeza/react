@@ -1,6 +1,4 @@
 import Menu from '../components/Menu/Menu';
-import { Botao, DivPrincipal,  Input } from './style_entra';
-import { Titulo } from './style';
 import Login from '../components/Login/Login';
 import logo from "../pages/micromeros.png";
 import { Fundo } from '../components/Cartao/style';

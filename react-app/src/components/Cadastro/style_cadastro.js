@@ -26,7 +26,7 @@ const DivCadastro = styled.div `
     
     input {
         font-size: 12pt;
-        color: white;
+        color: black;
         background-color: white;
         border: solid #7d92a7 2.2px;
         padding: 0.3em;
