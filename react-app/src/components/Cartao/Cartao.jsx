@@ -1,4 +1,5 @@
-import { Container, Descricao, Momento, Simbolo, Fundo } from "./style";
+import { Container, Descricao, Momento, Simbolo, Fundo, Setor } from "./style";
+
 
 const Cartao = (props) => (
 
@@ -6,7 +7,7 @@ const Cartao = (props) => (
         <Simbolo>{props.simb}</Simbolo>
         <Descricao>{props.descricao}</Descricao>
         <Momento>{props.data}</Momento>
-
+        <Setor>{props.setor}</Setor>
     </Container>
     
 );

@@ -6,7 +6,7 @@ const Container = styled.div `
     border: solid 2px black;
     padding: 1em;
     height: fit-content;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+    background-color: #032E6E;
     
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ const Simbolo = styled.span `
 
 const Descricao = styled.span `
     font-size: 18px;
-    font-style: italic;
+    font-weight: bolder;
     color: white;
 `;
 
@@ -49,6 +49,10 @@ const Fundo = styled.div `
     width: 100%;
     height: 130vh;
 `;
+const Setor = styled.div`
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+`;
 
-
-export { Container , Simbolo , Descricao , Momento, Fundo };
+export { Container , Simbolo , Descricao , Momento, Fundo, Setor };

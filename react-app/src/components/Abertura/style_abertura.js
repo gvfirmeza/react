@@ -1,18 +1,20 @@
+
 import styled from "styled-components";
 
 
 
 
-const DivAbertura = styled.div ` 
+const DivAbertura = styled.div` 
     
     font-family: Arial, Helvetica, sans-serif;
     padding: 40pt;
     border-radius: 20px;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+    background-color: #032E6E;
     display: flex ;
     color: white;
     width: 28rem;
     margin: 0 auto;
+    margin-bottom: 2em;
 
     label {
         padding-bottom: 1em;
@@ -55,6 +57,7 @@ const DivAbertura = styled.div `
         border: solid #3a444d 2.2px;
         border-radius: 10px;
         color: #3a444d;
+        
     }
 
     select {
@@ -87,15 +90,16 @@ const DivAbertura = styled.div `
         margin-top: 1em;
         width: 25em;
     }
-
     `
-   
 
-;
-const Fundo = styled.body `
+
+    ;
+const Fundo = styled.body`
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
     width: 100%;
 `;
 
-export {Fundo, DivAbertura};
+
+
+export { Fundo, DivAbertura };
