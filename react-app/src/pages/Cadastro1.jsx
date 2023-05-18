@@ -1,59 +1,25 @@
 import Menu from "../components/Menu/Menu";
+<<<<<<< HEAD
 import Cartao from "../components/Cartao/Cartao";
 import {  DivCadastro, Fundo } from "./style_cadastro";
 import { Titulo } from "./style";
 import Footer from "../components/Footer/Footer";
+=======
+import { Titulo, Fundo } from "./style.js";
+import logo from "../pages/micromeros.png";
+import Cadastro from "../components/Cadastro/Cadastro";
+
+>>>>>>> 437b1bb83cedf886ea59e912a69a209cba4e7bab
 
 const Cadastro1 = () => (
   <>  
   <Fundo>
     <Menu />
     <center>
+    <center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
     <Titulo>Cadastro de novo Usuário</Titulo>
     </center>
-    <center>
-      <DivCadastro>
-        <form>
-          <label for="Nome">Digite seu Nome</label>
-          <p>
-            <input type="text" placeholder="Nome" name="name" />
-          </p>
-          <label for="Sobrenomeltimo Nome">Digite seu Sobrenome</label>
-          <p>
-            <input type="text" placeholder="Sobrenome" name="sobrenome" />
-          </p>
-          <label for="senha">Digite sua Senha</label>
-          <p>
-            <input type="password" placeholder="Senha" name="senha" />
-          </p>
-          <label for=" Confirme senha">Confirme sua Senha</label>
-          <p>
-            <input
-              type="password"
-              placeholder="Confirme sua Senha"
-              name="senha"
-            />
-          </p>
-          <label for="email">Digite seu Email</label>
-          <p>
-            <input type="email" placeholder="Email" name="email" />
-          </p>
-          <label for="Setor">Selecione o setor</label>
-
-          <p>
-            <select>
-              <option value="ADM">ADM</option>
-              <option value="COMERCIAL">COMERCIAL</option>
-              <option value="TECNOLOGIA">TECNOLOGIA</option>
-            </select>
-          </p>
-          
-
-          <button type="submit">CADASTRAR</button>
-        </form>
-        
-      </DivCadastro>
-    </center>
+      <Cadastro/>
     </Fundo>
     <Footer></Footer>
   </>

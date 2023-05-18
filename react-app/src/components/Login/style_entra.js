@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Fundo } from "../../pages/style";
 
 const DivPrincipal = styled.div ` 
     /* gap: 1em; */
@@ -11,8 +12,10 @@ const DivPrincipal = styled.div `
     width: 28rem;
     margin-top: 40pt;
     border-radius: 20px;
-    background-color: #232835;
+    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     display: flex ;
+    margin-top: 0;
+
 
     a {
         text-decoration: none;
@@ -43,6 +46,7 @@ const Botao = styled.button`
     border: 1px solid white;
     border-radius: 40px;
 `;
+
 
 
 export { DivPrincipal, Input, Botao };
