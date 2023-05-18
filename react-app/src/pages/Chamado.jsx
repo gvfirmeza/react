@@ -2,6 +2,7 @@ import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Titulo } from "./style";
+import Footer from "../components/Footer/Footer";
 
 const Chamado = () => (
     <>
@@ -35,6 +36,8 @@ const Chamado = () => (
     />
     </Fundo>
     
+    <Footer></Footer>
+
     </>
     
     

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Footer1 = styled.footer`
-    position: sticky;
+    position: relative;
     bottom: 0pt;
     padding-top: 12pt;
     background: linear-gradient(90deg, #032E6E 30%, #031735 60%);

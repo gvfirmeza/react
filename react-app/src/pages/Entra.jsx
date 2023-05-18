@@ -2,6 +2,7 @@ import Menu from '../components/Menu/Menu';
 import { Botao, DivPrincipal, Input } from './style_entra';
 import { Titulo, Fundo } from './style';
 import Login from '../components/Login/Login';
+import Footer from '../components/Footer/Footer';
 
 function Entra() {
   return (
@@ -10,7 +11,7 @@ function Entra() {
         <Menu />
         <Login />
       </Fundo>
-
+      <Footer></Footer>
     </div>
   );
 }

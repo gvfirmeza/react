@@ -2,7 +2,7 @@ import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import {  DivCadastro, Fundo } from "./style_cadastro";
 import { Titulo } from "./style";
-
+import Footer from "../components/Footer/Footer";
 
 const Cadastro1 = () => (
   <>  
@@ -55,6 +55,7 @@ const Cadastro1 = () => (
       </DivCadastro>
     </center>
     </Fundo>
+    <Footer></Footer>
   </>
 );
 
