@@ -42,5 +42,4 @@ const Chamado = () => (
     
     
 );
-
 export default Chamado ;

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import logo from "./micromeros.png";
 
 const Titulo = styled.h2 `
     color: white;
