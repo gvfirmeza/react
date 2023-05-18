@@ -1,3 +1,4 @@
+
 import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
@@ -42,5 +43,6 @@ const Chamado = () => (
     
     
 );
+
 
 export default Chamado ;

@@ -1,8 +1,8 @@
 import Menu from "../components/Menu/Menu";
+import Footer from "../components/Footer/Footer";
 import { Titulo, Fundo } from "./style.js";
 import logo from "../pages/micromeros.png";
 import Cadastro from "../components/Cadastro/Cadastro";
-
 
 const Cadastro1 = () => (
   <>  
@@ -14,6 +14,7 @@ const Cadastro1 = () => (
     </center>
       <Cadastro/>
     </Fundo>
+    <Footer></Footer>
   </>
 );
 

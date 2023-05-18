@@ -1,9 +1,9 @@
 import Menu from "../components/Menu/Menu";
+
+import Footer from "../components/Footer/Footer";
 import { Fundo, Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 import Abertura1 from "../components/Abertura/Abertura1";
-
-
 
 const Abertura = () => (
   <>  
@@ -15,6 +15,7 @@ const Abertura = () => (
     </center>
       <Abertura1/>
     </Fundo>
+    <Footer></Footer>
   </>
 );
 

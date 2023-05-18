@@ -12,8 +12,8 @@ const Footer = () => (
                 <Texto>
                     <p>Tubarão Doente</p>
                     <p>Todos os direitos reservados ©</p>
-                    <p>Tubarão Macaco</p>
-                    <p>Jayme de Almeida</p>
+                    <p>Tosba Trap</p>
+                    <p>Luis Pastura</p>
                 </Texto>
             </Bloco>
         </Container>
