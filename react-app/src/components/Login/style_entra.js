@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Fundo } from "../../pages/style";
 
 const DivPrincipal = styled.div ` 
     /* gap: 1em; */
@@ -12,7 +11,7 @@ const DivPrincipal = styled.div `
     width: 28rem;
     margin-top: 40pt;
     border-radius: 20px;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+    background-color: #032E6E;
     display: flex ;
     margin-top: 0;
 
