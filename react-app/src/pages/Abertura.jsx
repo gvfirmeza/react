@@ -5,6 +5,7 @@ import logo from "../pages/micromeros.png";
 import Abertura1 from "../components/Abertura/Abertura1";
 import Bubu from "../components/MenuBubu/Bubu";
 
+
 const Abertura = () => (
   <>  
   <Fundo>

@@ -1,13 +1,20 @@
-import { DivAbertura } from "./style_abertura";
+import { DivAbertura} from "./style_abertura";
+import React from "react";
+
+
 
 const Abertura1 = () => (
-
-<DivAbertura>
+  
+ 
+  <DivAbertura>
         <form>
+          {/* nome*/} 
           <label for="Nome">Digite seu Nome</label>
             <input type="text" placeholder="Nome" name="name" />
+          {/* email*/} 
           <label for="email">Digite seu Email</label>
             <input type="email" placeholder="Email" name="email" />
+            {/* setor*/} 
           <label for="Setor">Selecione o Setor</label>
           <br />
             <select>
@@ -16,10 +23,12 @@ const Abertura1 = () => (
               <option value="TECNOLOGIA">TECNOLOGIA</option>
             </select>
             <br />
+           {/* setor*/} 
           <label For="Descricao">Descreva o Problema:</label>
           <br />
           <textarea rows="7" col="30"></textarea>
           <br />
+          {/* gravidade*/}  
           <label For="Gravidade"> Urgência do Problema:</label>
           <br />
             <select>
@@ -28,11 +37,13 @@ const Abertura1 = () => (
               <option value="Urgente">Urgente</option>
             </select>
             <br />
-          <button type="submit">ENVIAR CHAMADO</button>
+            {/* botao*/} 
+          <button  id="nc" type="submit" >ENVIAR CHAMADO</button>
+
         </form>
         
       </DivAbertura>
 
 );
-
+;
 export default Abertura1;
