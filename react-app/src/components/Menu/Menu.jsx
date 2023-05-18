@@ -21,7 +21,6 @@ const Menu = () => (
             Cadastro
         
         </Link>
-
     <Link to= "/Abertura">
         Abertura
     </Link>

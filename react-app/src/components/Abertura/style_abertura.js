@@ -14,6 +14,7 @@ const DivAbertura = styled.div`
     color: white;
     width: 28rem;
     margin: 0 auto;
+    margin-bottom: 2em;
 
     label {
         padding-bottom: 1em;
@@ -89,7 +90,6 @@ const DivAbertura = styled.div`
         margin-top: 1em;
         width: 25em;
     }
-
     `
 
 
