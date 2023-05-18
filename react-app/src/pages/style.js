@@ -24,6 +24,4 @@ const Ancora = styled.a `
    color: whitesmoke;
    `;
 
-
-
 export {Titulo , Fundo, Ancora};
