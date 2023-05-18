@@ -6,7 +6,7 @@ const Container = styled.div `
     border: solid 2px black;
     padding: 1em;
     height: fit-content;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+    background-color: #032E6E;
     
     display: flex;
     flex-direction: row;
