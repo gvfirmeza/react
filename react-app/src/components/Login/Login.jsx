@@ -1,18 +1,35 @@
-
 import { Botao, DivPrincipal, Input } from './style_entra';
-import { Titulo, Fundo } from '../../pages/style';
+import { Titulo } from '../../pages/style';
+import { useNavigate } from 'react-router-dom';
 
-const Login = () => (
+const Login = () => {
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/Abertura');
+  };
+
+  return (
     <>
-        <center><Titulo>Fazer o Login</Titulo></center>
-        <DivPrincipal>
-            <label for="email">Digite seu E-mail</label>
-            <p><Input type="e-mail" placeholder=' email' name="email" /></p>
-            <label for="senha">Digite sua Senha</label>
-            <p><Input type="password" placeholder=' senha' name="senha" /></p>
-            <Botao type='button'>Logar</Botao>
-        </DivPrincipal>
+      <center>
+        <Titulo>Fazer o Login</Titulo>
+      </center>
+      <DivPrincipal>
+        <label htmlFor="email">Digite seu E-mail</label>
+        <p>
+          <Input type="email" placeholder="email" name="email" />
+        </p>
+        <label htmlFor="senha">Digite sua Senha</label>
+        <p>
+          <Input type="password" placeholder="senha" name="senha" />
+        </p>
+        <Botao type="button" onClick={handleRedirect}>
+          Logar
+        </Botao>
+      </DivPrincipal>
     </>
-)
+  );
+};
 
 export default Login;
+
