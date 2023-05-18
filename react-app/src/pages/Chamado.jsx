@@ -2,7 +2,11 @@ import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Titulo } from "./style";
+<<<<<<< HEAD
+import Footer from "../components/Footer/Footer";
+=======
 import logo from "../pages/micromeros.png";
+>>>>>>> 437b1bb83cedf886ea59e912a69a209cba4e7bab
 
 const Chamado = () => (
     <>
@@ -38,6 +42,8 @@ const Chamado = () => (
     />
     </Fundo>
     
+    <Footer></Footer>
+
     </>
     
     

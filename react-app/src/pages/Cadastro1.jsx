@@ -1,8 +1,15 @@
 import Menu from "../components/Menu/Menu";
+<<<<<<< HEAD
+import Cartao from "../components/Cartao/Cartao";
+import {  DivCadastro, Fundo } from "./style_cadastro";
+import { Titulo } from "./style";
+import Footer from "../components/Footer/Footer";
+=======
 import { Titulo, Fundo } from "./style.js";
 import logo from "../pages/micromeros.png";
 import Cadastro from "../components/Cadastro/Cadastro";
 
+>>>>>>> 437b1bb83cedf886ea59e912a69a209cba4e7bab
 
 const Cadastro1 = () => (
   <>  
@@ -14,6 +21,7 @@ const Cadastro1 = () => (
     </center>
       <Cadastro/>
     </Fundo>
+    <Footer></Footer>
   </>
 );
 
