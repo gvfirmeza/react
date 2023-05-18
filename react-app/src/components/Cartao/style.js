@@ -17,8 +17,6 @@ const Container = styled.div `
     margin: auto;
     margin-bottom: 1.5em;
 
-    width: fit-content;
-
     word-wrap: break-word;
     white-space: pre-wrap;
 `;
