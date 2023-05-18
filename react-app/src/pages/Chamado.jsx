@@ -10,8 +10,10 @@ const Chamado = () => (
     <>
    <Fundo>
     <Menu />
+    
     <Bubu/>
-    <  center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
+
+    < center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
     <center><Titulo>Planilha de Chamados</Titulo></center>
    
     <br />
@@ -45,6 +47,5 @@ const Chamado = () => (
     
     
 );
-
 
 export default Chamado ;

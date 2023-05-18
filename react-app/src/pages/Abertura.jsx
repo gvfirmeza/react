@@ -1,5 +1,4 @@
 import Menu from "../components/Menu/Menu";
-
 import Footer from "../components/Footer/Footer";
 import { Fundo, Titulo } from "./style";
 import logo from "../pages/micromeros.png";

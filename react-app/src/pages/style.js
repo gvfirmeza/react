@@ -13,4 +13,21 @@ const Fundo = styled.div `
     height: 100vh;
 `;
 
+<<<<<<< HEAD
 export {Titulo , Fundo};
+=======
+const Ancora = styled.a `
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: #032E6E;
+    width: 6em;
+    border-radius: 7px;
+   text-decoration: none;
+   color: whitesmoke;
+   `;
+
+
+
+export {Titulo , Fundo, Ancora};
+>>>>>>> c1115d529f40d63b0a36e01fdc2153b406a804d5
