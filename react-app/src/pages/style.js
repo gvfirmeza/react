@@ -10,10 +10,12 @@ const Titulo = styled.h2 `
 const Fundo = styled.div `
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
-    width: 100%;
     height: 100vh;
 `;
 
+<<<<<<< HEAD
+export {Titulo , Fundo};
+=======
 const Ancora = styled.a `
     display: flex;
     justify-content: center;
@@ -28,3 +30,4 @@ const Ancora = styled.a `
 
 
 export {Titulo , Fundo, Ancora};
+>>>>>>> c1115d529f40d63b0a36e01fdc2153b406a804d5

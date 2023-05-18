@@ -32,7 +32,6 @@ const Simbolo = styled.span `
 
 const Descricao = styled.span `
     font-size: 18px;
-    font-style: italic;
     color: white;
 `;
 

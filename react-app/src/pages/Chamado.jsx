@@ -4,12 +4,16 @@ import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
 import { Titulo } from "./style";
 import logo from "../pages/micromeros.png";
+import Bubu from "../components/MenuBubu/Bubu";
 
 const Chamado = () => (
     <>
    <Fundo>
     <Menu />
-    <  center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
+    
+    <Bubu/>
+
+    < center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
     <center><Titulo>Planilha de Chamados</Titulo></center>
    
     <br />

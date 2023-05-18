@@ -20,6 +20,15 @@ const MeuNav = styled.nav `
         background-color: #444d67;
     }
 
+    @media (max-width: 555px){
+        display: none;
+    } 
+
+    @media (max-width: 728px){
+        font-size: 15px;
+        justify-content: baseline;
+    } 
+
 `;
 
 export { MeuNav };
