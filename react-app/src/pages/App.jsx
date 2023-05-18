@@ -1,6 +1,6 @@
 import logo from './micromeros.png';
 import Menu from '../components/Menu/Menu';
-import { Fundo, Titulo } from "./style.js";
+import { Fundo, Titulo, Ancora} from "./style.js";
 import Footer from '../components/Footer/Footer';
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
       <Menu />
       <header className="App-header">
         <Titulo>Microméros</Titulo>
-        <img src={logo} className="App-logo" alt="logo" height={300} />
+        <img src={logo} className="App-logo" alt="logo" height={300}  />
+        <Ancora href="http://localhost:3000/Entra"> ENTRAR </Ancora>
       </header>
       </center>
     </Fundo>
