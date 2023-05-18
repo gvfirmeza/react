@@ -8,7 +8,7 @@ const DivAbertura = styled.div `
     font-family: Arial, Helvetica, sans-serif;
     padding: 40pt;
     border-radius: 20px;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+    background-color: #032E6E;
     display: flex ;
     color: white;
     width: 28rem;
