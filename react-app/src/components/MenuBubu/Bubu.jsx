@@ -17,9 +17,6 @@ const Bubu = () => (
                     <a href="./Cadastro" class="lista-menu__link">Cadastro</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="./Entra" class="lista-menu__link">Login</a>
-                </li>
-                <li class="lista-menu__item">
                     <a href="./Dashboard" class="lista-menu__link">Dashboard</a>
                 </li>
             </ul>
