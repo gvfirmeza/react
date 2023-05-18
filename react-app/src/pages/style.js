@@ -13,9 +13,6 @@ const Fundo = styled.div `
     height: 100vh;
 `;
 
-<<<<<<< HEAD
-export {Titulo , Fundo};
-=======
 const Ancora = styled.a `
     display: flex;
     justify-content: center;
@@ -30,4 +27,3 @@ const Ancora = styled.a `
 
 
 export {Titulo , Fundo, Ancora};
->>>>>>> c1115d529f40d63b0a36e01fdc2153b406a804d5
