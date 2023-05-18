@@ -4,6 +4,7 @@ import { Fundo, Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 import Abertura1 from "../components/Abertura/Abertura1";
 
+
 const Abertura = () => (
   <>  
   <Fundo>

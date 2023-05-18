@@ -1,0 +1,31 @@
+[
+    {
+        "simbolo": "⚠️",
+        "descricao": "Primeiro dado",
+        "data": "28/02/1884",
+        "setor": "COM"
+        
+    },
+    {
+        "simbolo": "⚠️",
+        "descricao": "Segundo dado",
+        "data": "18/05/9000",
+        "setor": "COM"
+    },
+    {
+        "simbolo": "⚠️",
+        "descricao": "Terceiro Periodo",
+        "data": "13/05/0000",
+        "setor": "TEC"
+    }
+    ,
+    {
+        "simbolo": "⚠️",
+        "descricao": "Quarto dado",
+        "data": "13/05/0000",
+        "setor": "ADM"
+    }
+
+
+
+]
