@@ -9,12 +9,13 @@ function App() {
     <>
     <Fundo>
       <center>
-      <Menu />
-      <Bubu />
+      <br />
+      <br />
+      <br />
       <header className="App-header">
         <Titulo>Microméros</Titulo>
         <img src={logo} className="App-logo" alt="logo" height={300}  />
-        <Ancora href="http://localhost:3000/Entra"> ENTRAR </Ancora>
+        <Ancora href="./Entra"> ENTRAR </Ancora>
       </header>
       </center>
     </Fundo>
