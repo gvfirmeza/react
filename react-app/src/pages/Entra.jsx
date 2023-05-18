@@ -1,12 +1,8 @@
 import Menu from '../components/Menu/Menu';
 import Login from '../components/Login/Login';
-<<<<<<< HEAD
 import Footer from '../components/Footer/Footer';
-=======
 import logo from "../pages/micromeros.png";
 import { Fundo } from '../components/Cartao/style';
-
->>>>>>> 437b1bb83cedf886ea59e912a69a209cba4e7bab
 
 function Entra() {
   return (
@@ -18,12 +14,7 @@ function Entra() {
         <Login />
       
       </Fundo>
-<<<<<<< HEAD
       <Footer></Footer>
-=======
-      
-
->>>>>>> 437b1bb83cedf886ea59e912a69a209cba4e7bab
     </div>
   );
 }
