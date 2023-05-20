@@ -3,6 +3,10 @@ import { Titulo } from '../../pages/style';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const usuario = 'Gust';
+  const senha = "piroca123";
+  var chances = 5
+
   const navigate = useNavigate();
 
   const handleRedirect = () => {
@@ -17,6 +21,23 @@ const Login = () => {
       senha.type = "password";
     }
 }
+
+// function testaLogin(){
+//   let user = document.getElementById('inputEmail').value;
+//   let password = document.getElementById('inputSenha').value;
+
+//   if(user.toLowerCase() == usuario.toLowerCase() && password == senha){
+//     handleRedirect();
+//   } else{
+//     window.alert('Senha ou Usuário incorretos. Tente Novamente');
+//     chances -= 1;
+//   }
+
+//   if(chances == 0){
+//     document.getElementById('botaoLogin').disabled = true;
+//   }
+
+// }
 
   return (
     <>
@@ -35,7 +56,7 @@ const Login = () => {
           <BotaoVerSenha type='button' onClick={mostraSenha}>.</BotaoVerSenha>       
         </p>
 
-        <Botao type="button" onClick={handleRedirect}>
+        <Botao id='botaoLogin' type="sumbit" onClick={handleRedirect}>
           Logar
         </Botao>
       </DivPrincipal>
