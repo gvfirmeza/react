@@ -17,11 +17,11 @@ const Login = () => {
       <DivPrincipal>
         <label htmlFor="email">Digite seu E-mail</label>
         <p>
-          <Input type="email" placeholder="email" name="email" />
+          <Input type="email" placeholder="email" name="email" required />
         </p>
         <label htmlFor="senha">Digite sua Senha</label>
         <p>
-          <Input type="password" placeholder="senha" name="senha" />
+          <Input type="password" placeholder="senha" name="senha" required />
         </p>
         <Botao type="button" onClick={handleRedirect}>
           Logar

@@ -16,12 +16,26 @@ const Container = styled.div`
     grid-template-columns: 50% 50%;
     column-gap: 30pt;
     padding-right: 30pt;
+
+    @media (max-width: 1456px){
+        width: 45%;
+    }
+    @media (max-width: 970px){
+        width: 70%;
+    }
+    @media (max-width: 624px){
+        width: 90%;
+        column-gap: 20pt;
+    }
+    @media (max-width: 495px){
+        width: 80%;
+        column-gap: 30pt;
+    }
 `;
 
 const Bloco = styled.div`
     margin-top: 0.5pc;
     height: 10pc;
-    border: 1px solid black;
     border-radius: 15px;
     text-align: center;
 `;

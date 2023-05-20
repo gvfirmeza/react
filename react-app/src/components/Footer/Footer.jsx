@@ -10,9 +10,9 @@ const Footer = () => (
             </Bloco>
             <Bloco>
                 <Texto>
-                    <p>.</p>
                     <p>Tubarão Doente</p>
                     <p>Todos os direitos reservados ©</p>
+                    <p>Mais Alguma Coisa</p>
                 </Texto>
             </Bloco>
         </Container>
