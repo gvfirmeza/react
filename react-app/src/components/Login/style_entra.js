@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import olho from "./olho-aberto.png";
 
 const DivPrincipal = styled.div ` 
     /* gap: 1em; */
@@ -15,7 +16,6 @@ const DivPrincipal = styled.div `
     display: flex ;
     margin-top: 0;
 
-
     a {
         text-decoration: none;
     }
@@ -25,13 +25,12 @@ const DivPrincipal = styled.div `
 const Input = styled.input`
     border: 1px solid black;
     border-radius: 25px;
-    height: 30px;
-    width: 25em;
+    height: 35px;
+    width: 75%;
     padding-left: 15px;
     font-size: 12pt;
-    
+    margin: 10pt;
 `;
-
 
 const Botao = styled.button`
     margin-top: 3em;
@@ -43,6 +42,21 @@ const Botao = styled.button`
     border-radius: 40px;
 `;
 
+const BotaoVerSenha = styled.button`
+    background-image: url(${olho});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: 0px;
+    height: 35px;
+    width: 35px;
+    color: transparent;
+    margin-left: -15%;
+    
+    :hover{
+        background-size: 95%;
+    }
+`;
 
-
-export { DivPrincipal, Input, Botao };
+export { DivPrincipal, Input, Botao, BotaoVerSenha };
