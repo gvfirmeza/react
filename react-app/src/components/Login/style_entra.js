@@ -20,10 +20,7 @@ const DivPrincipal = styled.div `
         text-decoration: none;
     }
 
-`
-
-;
-
+`;
 
 const Input = styled.input`
     border: 1px solid black;
