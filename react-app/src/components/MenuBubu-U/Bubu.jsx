@@ -8,16 +8,13 @@ const Bubu = () => (
             </label>
             <ul class="lista-menu"> 
                 <li class="lista-menu__item">
-                    <a href="./Abertura" class="lista-menu__link">Abertura</a>
+                    <a href="./" class="lista-menu__link">Home</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="./Chamado" class="lista-menu__link">Chamado</a>
+                    <a href="./AberturaU" class="lista-menu__link">Abertura</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="./Cadastro" class="lista-menu__link">Cadastro</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="./Dashboard" class="lista-menu__link">Dashboard</a>
+                    <a href="./ChamadoU" class="lista-menu__link">Chamado</a>
                 </li>
             </ul>
     </Hamb>

@@ -9,6 +9,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Abertura from './pages/Abertura';
 import Dashboard from './pages/Dashboard';
+import AberturaU from './pages/AberturaU';
+import ChamadoU from './pages/ChamadoU';
 
 
 const rotas = createBrowserRouter([
@@ -40,6 +42,14 @@ const rotas = createBrowserRouter([
   {
     path: "/Dashboard",
     element: <Dashboard />
+  },
+  {
+    path: "/AberturaU",
+    element: <AberturaU />
+  },
+  {
+    path: "/ChamadoU",
+    element: <ChamadoU />
   }
 
 ])
