@@ -9,7 +9,7 @@ const DivPrincipal = styled.div `
     background: blue;
     flex-direction: column;
     padding: 40pt;
-    width: 28rem;
+    width: 25%;
     margin-top: 40pt;
     border-radius: 20px;
     background-color: #032E6E;
@@ -20,16 +20,38 @@ const DivPrincipal = styled.div `
         text-decoration: none;
     }
 
+    @media (max-width: 1577px){
+        width: 30%;
+    }
+    @media (max-width: 1287px){
+        width: 40%;
+    }
+    @media (max-width: 905px){
+        width: 50%;
+    }
+    @media (max-width: 703px){
+        width: 60%;
+    }
+
 `;
 
 const Input = styled.input`
     border: 1px solid black;
     border-radius: 25px;
     height: 35px;
-    width: 75%;
+    width: 90%;
     padding-left: 15px;
     font-size: 12pt;
     margin: 10pt;
+
+    @media (max-width: 1287px){
+        padding-left: 12px;
+        margin: 6pt;
+    }
+    @media (max-width: 400px){
+        padding-left: 9px;
+        margin: 2pt;
+    }
 `;
 
 const Botao = styled.button`
@@ -56,6 +78,16 @@ const BotaoVerSenha = styled.button`
     
     :hover{
         background-size: 95%;
+    }
+
+    @media (max-width: 605px){
+        margin-left: -22%;
+    }
+    @media (max-width: 400px){
+        margin-left: -27%;
+    }
+    @media (max-width: 364px){
+        margin-left: -32%;
     }
 `;
 
