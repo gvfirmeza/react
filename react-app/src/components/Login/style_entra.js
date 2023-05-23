@@ -16,6 +16,12 @@ const DivPrincipal = styled.div `
     display: flex ;
     margin-top: 0;
 
+    .chato {
+        margin-top: 0;
+        margin-bottom: 2em;
+        font-size: 32px;
+    }
+
     a {
         text-decoration: none;
     }

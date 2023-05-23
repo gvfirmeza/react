@@ -1,5 +1,4 @@
 import { Botao, DivPrincipal, Input, BotaoVerSenha } from './style_entra';
-import { Titulo } from '../../pages/style';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -32,13 +31,13 @@ const Login = () => {
     let password = document.getElementById('inputSenha').value;
 
     // LOGIN ADM
-    if (user.toLowerCase() == adm.toLowerCase() && password == senhaadm) {
+    if (user.toLowerCase() === adm.toLowerCase() && password === senhaadm) {
       handleRedirect();
     }
 
     // LOGIN FUNCIONÁRIOS
 
-    if (user.toLowerCase() == func.toLowerCase() && password == senha) {
+    if (user.toLowerCase() === func.toLowerCase() && password === senha) {
       handleRedirectFunc();
     }
 
@@ -46,10 +45,8 @@ const Login = () => {
 
   return (
     <>
-      <center>
-        <Titulo>Fazer o Login</Titulo>
-      </center>
       <DivPrincipal>
+        <center><h2 className='chato'>Faça seu Login</h2></center>
         <label htmlFor="email">Digite seu E-mail</label>
         <p>
           <Input type="email" placeholder="email" name="email" id='inputEmail' required />

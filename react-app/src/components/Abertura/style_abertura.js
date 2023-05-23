@@ -12,17 +12,17 @@ const DivAbertura = styled.div`
     margin: 0 auto;
 
     @media (max-width: 650px){
-        width: 20rem;
-        }
-        @media (max-width: 555px){
+        width: 22rem;
+    }
+    @media (max-width: 555px){
+        width: 18rem;
+    }
+    @media (max-width: 450px){
         width: 15rem;
-        }
-        @media (max-width: 450px){
-        width: 13rem;
-        }
-        @media (max-width: 360px){
-        width: 10rem;
-        } 
+    }
+    @media (max-width: 360px){
+        width: 11rem;
+    }
 
     label {
         padding-bottom: 1em;

@@ -11,7 +11,7 @@ const Titulo = styled.h2 `
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0.6em;
+    top: 0.5em;
     left: 50%;
     transform: translateX(-50%);
     font-size: 23px;

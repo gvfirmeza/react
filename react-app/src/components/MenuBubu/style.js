@@ -9,6 +9,7 @@ const Hamb = styled.div`
         display: flex;
         padding: 1em;
         background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
+        z-index: 10;
 
 
     .cabeçalho__menu-hamburguer {
