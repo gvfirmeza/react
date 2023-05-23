@@ -5,12 +5,23 @@ const Titulo = styled.h2 `
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 10px;
+    text-align: center;
+
+    @media (max-width: 555px) {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0.6em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 23px;
+  }
 
     @media (max-width:425px){
-        font-size: 26px;
+        font-size: 22px;
     }
     @media (max-width:360px){
-        font-size: 22px;
+        font-size: 21px;
     }
 `;
 
@@ -19,6 +30,10 @@ const Fundo = styled.div `
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
     height: 100vh;
     user-select: none;
+    
+    @media (max-width: 650px){
+        height: 120vh;
+    }
 `;
 
 const Ancora = styled.a `

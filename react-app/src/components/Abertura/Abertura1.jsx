@@ -10,10 +10,14 @@ const Abertura1 = () => (
         <form>
           {/* nome*/} 
           <label for="Nome">Digite seu Nome</label>
+          <br />
             <input type="text" placeholder="Nome" name="name" />
+            <br />
           {/* email*/} 
           <label for="email">Digite seu Email</label>
+          <br />
             <input type="email" placeholder="Email" name="email" />
+            <br />
             {/* setor*/} 
           <label for="Setor">Selecione o Setor</label>
           <br />
