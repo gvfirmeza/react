@@ -34,6 +34,10 @@ const Fundo = styled.div `
     @media (max-width: 650px){
         height: 120vh;
     }
+
+    @media (max-width: 380px){
+        height: 150vh;
+    }
 `;
 
 const Ancora = styled.a `
