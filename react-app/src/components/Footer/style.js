@@ -45,13 +45,4 @@ const Texto = styled.span`
     font-size: 12pt;
 `;     
 
-// function mostra_senha() {
-//     var senha = document.getElementById("inputSenha");
-//     if (senha.type === "password") {
-//       senha.type = "text";
-//     } else {
-//       senha.type = "password";
-//     }
-// }
-
 export { Footer1, Texto, Bloco, Container };

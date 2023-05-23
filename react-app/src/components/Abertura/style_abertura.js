@@ -10,7 +10,19 @@ const DivAbertura = styled.div`
     color: white;
     width: 28rem;
     margin: 0 auto;
-    margin-bottom: 2em;
+
+    @media (max-width: 650px){
+        width: 22rem;
+    }
+    @media (max-width: 555px){
+        width: 18rem;
+    }
+    @media (max-width: 450px){
+        width: 15rem;
+    }
+    @media (max-width: 360px){
+        width: 11rem;
+    }
 
     label {
         padding-bottom: 1em;
@@ -32,6 +44,19 @@ const DivAbertura = styled.div`
         margin-bottom: 1em;
         margin-top: 1em;
         width: 25em;
+
+        @media (max-width: 650px){
+        width: 20rem;
+        }
+        @media (max-width: 555px){
+        width: 15rem;
+        }
+        @media (max-width: 450px){
+        width: 13rem;
+        }
+        @media (max-width: 360px){
+        width: 10rem;
+        } 
     }
 
     input::placeholder{
@@ -71,7 +96,7 @@ const DivAbertura = styled.div`
         background: -webkit-linear-gradient(90deg, #032E6E 30%, #031735 60%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        background-color: white;  
+        background-color: white;
     }
 
     textarea {
@@ -85,6 +110,21 @@ const DivAbertura = styled.div`
         margin-bottom: 1em;
         margin-top: 1em;
         width: 25em;
+
+        @media (max-width: 650px){
+        width: 20rem;
+        }
+        @media (max-width: 555px){
+        width: 15rem;
+        }
+        @media (max-width: 450px){
+        width: 13rem;
+        }
+        @media (max-width: 360px){
+        width: 10rem;
+        } 
+
+        
     }
     `
 
