@@ -1,8 +1,4 @@
-
 import styled from "styled-components";
-
-
-
 
 const DivAbertura = styled.div` 
     
@@ -92,8 +88,7 @@ const DivAbertura = styled.div`
     }
     `
 
-
-    ;
+;
 const Fundo = styled.body`
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);

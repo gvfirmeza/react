@@ -5,6 +5,13 @@ const Titulo = styled.h2 `
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 10px;
+
+    @media (max-width:425px){
+        font-size: 26px;
+    }
+    @media (max-width:360px){
+        font-size: 22px;
+    }
 `;
 
 const Fundo = styled.div `
