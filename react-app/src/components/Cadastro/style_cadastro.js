@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-
-
-
 const DivCadastro = styled.div ` 
     
     font-family: Arial, Helvetica, sans-serif;
@@ -34,6 +31,19 @@ const DivCadastro = styled.div `
         margin-bottom: 1em;
         margin-top: 1em;
         width: 25em;
+
+        @media (max-width: 650px){
+        width: 20rem;
+        }
+        @media (max-width: 555px){
+        width: 15rem;
+        }
+        @media (max-width: 450px){
+        width: 13rem;
+        }
+        @media (max-width: 360px){
+        width: 10rem;
+        }   
     }
 
     input::placeholder{
@@ -75,11 +85,21 @@ const DivCadastro = styled.div `
         -webkit-text-fill-color: transparent;
         background-color: white;  
     }
+    
+    @media (max-width: 650px){
+        width: 22rem;
+    }
+    @media (max-width: 555px){
+        width: 18rem;
+    }
+    @media (max-width: 450px){
+        width: 15rem;
+    }
+    @media (max-width: 360px){
+        width: 11rem;
+    }
+`;
 
-    `
-   
-
-;
 const Fundo = styled.div `
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
