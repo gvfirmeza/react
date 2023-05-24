@@ -4,7 +4,7 @@ const MeuNav = styled.nav `
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 19px;
+    font-size: 20px;
     gap: 1em;
     background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
     
