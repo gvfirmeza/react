@@ -19,6 +19,7 @@ const Container = styled.div `
 
     word-wrap: break-word;
     white-space: pre-wrap;
+
 `;
 
 const Simbolo = styled.span `
@@ -26,12 +27,24 @@ const Simbolo = styled.span `
     font-weight: bolder;
     display: flex;
     align-items: center;
+
+    @media (max-width: 480px) {
+
+        font-size: 16px;
+
+    }
 `;
 
 const Descricao = styled.span `
     font-size: 18px;
     font-weight: bolder;
     color: white;
+
+    @media (max-width: 480px) {
+
+        font-size: 16px;
+
+    }
 `;
 
 const Momento = styled.span `
@@ -42,6 +55,11 @@ const Momento = styled.span `
     padding-left: 1em;
     color: white;
     
+    @media (max-width: 480px) {
+
+        font-size: 16px;
+
+    }   
 `;
 const Fundo = styled.div `
     background: rgb(167,218,226);
