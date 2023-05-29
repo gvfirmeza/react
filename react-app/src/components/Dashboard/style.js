@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 const Lerer = styled.div `
-
+    margin-top: 5em;
+    width: fit-content;
+    border-radius: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh;
-    width: 70vh;
-
+    background: linear-gradient(0deg, rgba(39,34,195,1) 0%, rgba(45,213,253,1) 100%);
+        
     div {
         margin: 0em;
         padding: 6em;
