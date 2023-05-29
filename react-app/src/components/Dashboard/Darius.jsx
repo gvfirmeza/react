@@ -21,20 +21,35 @@ function Dashboard() {
             label: 'Chamados',
             data: [12, 19, 7, 9, 14, 3],
             backgroundColor: 'rgba(75, 192, 192, 0.6)',
+            color: 'white',
           },
         ],
       },
       options: {
         responsive: false,
-        scales: {
+                scales: {
           y: {
             beginAtZero: true,
+            ticks: {
+              color: 'white', 
+            },
+          },
+          x: {
+            ticks: {
+              color: 'white', 
+            },
+          },
+        },
+        plugins: {
+          legend: {
+            labels: {
+              color: 'white', // Altere a cor das legendas aqui
+            },
           },
         },
       },
     });
   }, []);
-
   const chart2Ref = useRef(null);
   let myChart2 = null;
 
@@ -52,15 +67,27 @@ function Dashboard() {
           {
             label: 'Chamados',
             data: [20, 18, 26],
-            backgroundColor: ['rgba(216, 50, 28, 0.6)', 'rgba(28, 216, 53, 0.6)' , 'rgba(78, 28, 216, 0.6)']
+            backgroundColor: ['rgba(216, 50, 28, 0.6)', 'rgba(28, 216, 53, 0.6)' , 'rgba(78, 28, 216, 0.6)'],
+            borderColor: "transparent"
           },
         ],
       },
       options: {
         responsive: false,
         scales: {
+          display: false,
           y: {
-            beginAtZero: true,
+            display: false
+          },
+          x: {
+            display: false
+          },
+        },
+        plugins: {
+          legend: {
+            labels: {
+              color: 'white', 
+            },
           },
         },
       },
