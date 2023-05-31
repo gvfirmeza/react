@@ -20,7 +20,7 @@ function DashboardR() {
           {
             label: 'Chamados',
             data: [12, 19, 7, 9, 14, 3],
-            backgroundColor: 'rgba(75, 192, 192, 0.6)',
+            backgroundColor: 'rgba(75, 192, 192)',
             color: 'white',
           },
         ],
@@ -67,7 +67,7 @@ function DashboardR() {
           {
             label: 'Chamados',
             data: [20, 18, 26],
-            backgroundColor: ['rgba(216, 50, 28, 0.6)', 'rgba(28, 216, 53, 0.6)' , 'rgba(78, 28, 216, 0.6)'],
+            backgroundColor: ['rgba(216, 50, 28, 0.8)', 'rgba(28, 216, 53, 0.8)' , 'rgba(78, 28, 216, 0.8)'],
             borderColor: "transparent"
           },
         ],

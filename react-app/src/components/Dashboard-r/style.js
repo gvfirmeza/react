@@ -45,6 +45,11 @@ const Lerer = styled.div`
         }
     
     }
+    
+    @media (max-width: 320px) {
+        border-radius: 0px;
+    
+    }
 `;
 
 export { Lerer };

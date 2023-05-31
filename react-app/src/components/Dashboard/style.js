@@ -18,6 +18,18 @@ const Lerer = styled.div `
         margin-top: 1em;
     }
 
+    @media (max-width: 2400px) {
+        div {
+            padding: 4em;
+        }
+    }
+
+    @media (max-width: 1900px) {
+        div {
+            padding: 2em;
+        }
+    }
+
     @media (max-width: 1400px) {
         display: none;
     }
