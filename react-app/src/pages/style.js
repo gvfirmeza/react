@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Titulo = styled.h2 `
     color: white;
-    font-size: 32px;
+    font-size: 31px;
     margin-top: 0;
     margin-bottom: 10px;
     text-align: center;
@@ -30,7 +30,7 @@ const Fundo = styled.div `
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
     height: 140vh;
     user-select: none;
-    
+
     @media (max-width: 650px){
         height: 150vh;
     }
