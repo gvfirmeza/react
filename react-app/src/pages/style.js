@@ -28,15 +28,15 @@ const Titulo = styled.h2 `
 const Fundo = styled.div `
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
-    height: 100vh;
+    height: 140vh;
     user-select: none;
     
     @media (max-width: 650px){
-        height: 120vh;
+        height: 150vh;
     }
 
     @media (max-width: 380px){
-        height: 150vh;
+        height: 160vh;
     }
 `;
 

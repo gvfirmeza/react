@@ -18,7 +18,7 @@ const Lerer = styled.div `
         margin-top: 1em;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1400px) {
         display: none;
     }
 `;
