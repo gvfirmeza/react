@@ -14,6 +14,8 @@ function Dashboard () {
     <Fundo>
       <Menu />
       <Bubu />
+      <center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
+      <Titulo>Dashboard</Titulo>
       <center>
         <Darius />
         <DariusR />
