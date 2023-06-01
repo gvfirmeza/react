@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import furunculo from "./hamburguer.png"
+import furunculo from "./hamburguer.png";
 
 const Hamb = styled.div`
     
@@ -13,8 +13,8 @@ const Hamb = styled.div`
 
 
     .cabeçalho__menu-hamburguer {
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         background-image: url(${furunculo});
         background-repeat: no-repeat;
         background-position: center;
