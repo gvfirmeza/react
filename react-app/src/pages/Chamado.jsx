@@ -6,11 +6,16 @@ import { Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 import dados from "../data/informacoes.json";
 import Bubu from "../components/MenuBubu/Bubu";
+import Logout from '../components/Logout/Logout';
+
 
 
 const Chamado = () => (
     <>
    <Fundo>
+
+    <Logout />
+
     <Menu />
     
     <Bubu/>
