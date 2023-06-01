@@ -13,8 +13,8 @@ const Hamb = styled.div`
 
 
     .cabeçalho__menu-hamburguer {
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
         background-image: url(${furunculo});
         background-repeat: no-repeat;
         background-position: center;
