@@ -4,12 +4,14 @@ import { Fundo, Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 import Abertura1 from "../components/Abertura/Abertura1";
 import Bubu from "../components/MenuBubu/Bubu";
+import Logout from "../components/Logout/Logout";
 
 
 const Abertura = () => (
   <>  
   <Fundo>
     <Menu />
+    <Logout/>
     <Bubu />
     <center>
     <center><img src={logo} className="App-logo" alt="logo" height={100}  zindex= {2}/></center>
