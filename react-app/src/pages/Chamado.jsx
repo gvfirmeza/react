@@ -16,7 +16,7 @@ const Chamado = () => {
     const [info, setInfo] = useState(dados)
 
     const filtra = (entrada) => {
-        setInfo(dados.filter( (e) => e.setor.toLowerCase().includes(entrada.toLowerCase())));
+        setInfo(dados.filter((e) => e.setor.toLowerCase().includes(entrada.toLowerCase()) || e.descricao.toLowerCase().includes(entrada.toLowerCase())));
     }
 
     return (
