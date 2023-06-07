@@ -51,4 +51,13 @@ const Ancora = styled.a `
    color: whitesmoke;
    `;
 
-export {Titulo , Fundo, Ancora};
+const Busca = styled.input `
+    padding: 0.6em;
+    padding-right: 9em;
+    border-radius: 6px;
+    border: solid black 2px;
+    margin-top: 0;
+    margin-bottom: 3em;
+`
+
+export {Titulo , Fundo, Ancora, Busca};

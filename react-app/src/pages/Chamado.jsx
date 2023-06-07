@@ -2,15 +2,25 @@ import Footer from '../components/Footer/Footer';
 import { Fundo } from "../components/Cartao/style";
 import Menu from "../components/Menu/Menu";
 import Cartao from "../components/Cartao/Cartao";
-import { Titulo } from "./style";
+import { Busca, Titulo } from "./style";
 import logo from "../pages/micromeros.png";
 import dados from "../data/informacoes.json";
 import Bubu from "../components/MenuBubu/Bubu";
 import Logout from '../components/Logout/Logout';
+import { useState } from 'react';
 
 
 
-const Chamado = () => (
+const Chamado = () => {
+
+    const [info, setInfo] = useState(dados)
+
+    const filtra = (entrada) => {
+        setInfo(dados.filter( (e) => e.setor.toLowerCase().includes(entrada.toLowerCase())));
+    }
+
+    return (
+
     <>
    <Fundo>
 
@@ -25,8 +35,12 @@ const Chamado = () => (
    
     <br />
     
+    <center>
+    <Busca type='text' onChange={(e) => filtra(e.target.value)}/>
+    </center>
+
    {
-    dados.map(
+    info.map(
         (ele, ind) => (
            <Cartao
                 key={ind}
@@ -45,7 +59,7 @@ const Chamado = () => (
     
     </>
     
-    
-);
+    )
+};
 
 export default Chamado ;
