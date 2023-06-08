@@ -3,7 +3,6 @@ import styled from "styled-components";
 const Lerer = styled.div`
     display: none;
 
-
     @media (max-width: 1400px) {
         display: block;
         width: 600px; 
@@ -16,7 +15,7 @@ const Lerer = styled.div`
         margin-top: 0;
         
         .jonas{
-            width: 500px;
+            width: 350px;
         }
     
     }
