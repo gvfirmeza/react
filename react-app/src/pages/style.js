@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Lupa from "./lupa.png"
 
 const Titulo = styled.h2 `
     color: white;
@@ -58,6 +59,12 @@ const Busca = styled.input `
     border: solid black 2px;
     margin-top: 0;
     margin-bottom: 3em;
+    color: white;
+    background-color: #032E6E;
+    background-image: url(${Lupa});
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 97%;
 `
 
 export {Titulo , Fundo, Ancora, Busca};

@@ -1,27 +1,27 @@
 [
     {
         "simbolo": "⚠️",
-        "descricao": "Primeiro dado",
+        "descricao": "Relatório de vendas com conflito",
         "data": "28/02/1884",
         "setor": "COM"
         
     },
     {
         "simbolo": "⚠️",
-        "descricao": "Segundo dado",
+        "descricao": "Erro para finalizar comprar com cartão VISA",
         "data": "18/05/9000",
         "setor": "COM"
     },
     {
         "simbolo": "⚠️",
-        "descricao": "Terceiro Periodo",
+        "descricao": "Monitor não reconhece cabo HDMI",
         "data": "13/05/0000",
         "setor": "TEC"
     }
     ,
     {
         "simbolo": "⚠️",
-        "descricao": "Quarto dado",
+        "descricao": "Erro na inscrição de novos usuários",
         "data": "13/05/0000",
         "setor": "ADM"
     }
