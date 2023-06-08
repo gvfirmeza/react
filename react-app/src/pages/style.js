@@ -29,16 +29,8 @@ const Titulo = styled.h2 `
 const Fundo = styled.div `
     background: rgb(167,218,226);
     background: radial-gradient(circle, rgba(167,218,226,1) 6%, rgba(80,87,106,1) 85%);
-    height: 140vh;
+    height: 70rem;
     user-select: none;
-
-    @media (max-width: 650px){
-        height: 150vh;
-    }
-
-    @media (max-width: 380px){
-        height: 160vh;
-    }
 `;
 
 const Ancora = styled.a `
