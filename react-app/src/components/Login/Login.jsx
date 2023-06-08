@@ -5,7 +5,7 @@ const Login = () => {
   const adm = 'ADM';
   const senhaadm = "123";
   const func = "USER";
-  const senha = "123";
+  const senha = "456";
 
   const navigate = useNavigate();
 
@@ -33,13 +33,15 @@ const Login = () => {
     // LOGIN ADM
     if (user.toLowerCase() === adm.toLowerCase() && password === senhaadm) {
       handleRedirect();
+    } else if (user.toLowerCase() === func.toLowerCase() && password === senha) {
+      handleRedirectFunc();
+    } else{
+      window.alert("Usuário ou senha incorreto.")
     }
 
     // LOGIN FUNCIONÁRIOS
 
-    if (user.toLowerCase() === func.toLowerCase() && password === senha) {
-      handleRedirectFunc();
-    }
+
 
   }
 
