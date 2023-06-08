@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 const Footer1 = styled.footer`
     position: relative;
-    bottom: 0pt;
     padding-top: 12pt;
-    background: linear-gradient(90deg, #032E6E 30%, #031735 60%);
-    height: 12pc;
+    background: linear-gradient(270deg, #032E6E 30%, #031735 60%);
+    height: 11rem;
     width: 100%;
+    user-select : none;
 `;
 
 const Container = styled.div`
@@ -34,8 +34,8 @@ const Container = styled.div`
 `;
 
 const Bloco = styled.div`
-    margin-top: 0.5pc;
-    height: 10pc;
+    margin-top: 0.5rem;
+    height: 10rem;
     border-radius: 15px;
     text-align: center;
 `;
