@@ -33,10 +33,6 @@ const ChamadoU = () => {
     <center><Titulo>Planilha de Chamados</Titulo></center>
    
     <br />
-    
-    <center>
-    <Busca type='text' onChange={(e) => filtra(e.target.value)}/>
-    </center>
 
    {
     info.map(
