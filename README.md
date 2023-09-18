@@ -1,7 +1,5 @@
 # Sistema de Gerenciamento de Chamados Internos - Microméros
 
-![Microméros Logo](link-para-logo-da-micromeros.png)
-
 Bem-vindo ao repositório do projeto de Front-End do Sistema de Gerenciamento de Chamados Internos da Microméros. Este sistema foi desenvolvido para facilitar o gerenciamento de chamados internos da empresa, oferecendo funcionalidades essenciais para os usuários e administradores.
 
 ## Funcionalidades Principais
