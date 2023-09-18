@@ -8,10 +8,12 @@ Bem-vindo ao repositório do projeto de Front-End do Sistema de Gerenciamento de
 
 - **Abrir Chamados:** Os usuários podem abrir novos chamados, descrevendo o problema ou solicitação.
 
-- **Cadastrar Usuários:** É possível cadastrar novos usuários no sistema.
-
 - **Visualizar Chamados Abertos:** Os usuários podem ver uma lista de chamados abertos e verificar o status de cada um.
+
+- **Resolver Chamados:** Os usuários podem resolver os chamados e os marcarem como resolvido.
 
 ### Administradores
 
 - **Dashboard de Status:** Os administradores têm acesso a um painel de controle que exibe os status dos chamados, facilitando o acompanhamento em tempo real.
+
+- **Cadastrar Usuários:** É possível cadastrar novos usuários no sistema.
